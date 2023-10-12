@@ -1,17 +1,13 @@
-// Descrito en la documentación
 import SimpleLightbox from 'simplelightbox';
-// Importación adicional de estilos
 import 'simplelightbox/dist/simple-lightbox.min.css';
-// Add imports above this line
 import { galleryItems } from './gallery-items';
-// Change code below this line
 const gallery = document.querySelector('.gallery');
 
 function createListItem(image) {
   return `<li class="gallery__item">
-   <a class="gallery__link" href="${image.original}">
-      <img class="gallery__image" src="${image.preview}" alt="${image.description}" />
-   </a>
+    <a class="gallery__link" href="${image.original}">
+        <img class="gallery__image" src="${image.preview}" alt="${image.description}" />
+    </a>
 </li>`;
 }
 

@@ -1,4 +1,3 @@
-
 var throttle = require('lodash.throttle');
 const form = document.querySelector('.feedback-form');
 const formInput = document.querySelector('input[name="email"]');
